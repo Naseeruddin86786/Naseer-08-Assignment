@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    padding: 20px 150px 50px;
+}
+
+h1 {
+    opacity: 0.6;
+    /* padding-left: 30px; */
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bold {
+    color: black;
+    font-size: 20PX;
+    font-weight: 900;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+input {
+    height: 50px;
+    width: 350px;
+    margin-left: 20px;
+    border: 2px solid rgb(226,229,248);
+    border-radius: 30px;
+}
+
+input::placeholder {
+    padding-left: 40px;
+    font-size: 20px;
+    color: rgb(226,229,248) ;
+    font-weight: lighter;
+}
+
+button {
+    margin: 20px 20px;
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(77,123,243);
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.logos {
+    color: rgb(77,123,243);
+    padding: 100px 150px 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    opacity: 0.4;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .logo {
+            padding: 30px 325px;
+    }
+
+    h1 {
+            text-align: center;
+            font-size: 45px;
+            font-weight: 50px;
+    }
+
+    .bold {
+            font-size: 35px;
+            font: weight 4000px;
+        }
+        
+    h3 {
+            font-size: 20px;
+            opacity: 0.6;
+    }   
+    
+    input {
+            margin-left: 100px;
+            height: 80px;
+            width: 580px;
+            border-radius:60px ;
+    }
+
+    input::placeholder {
+            font-size: 30px;
+    }
+    
+    button {
+            margin-left: 100px;
+            height: 80px;
+            width: 580px;
+            border-radius: 60px;
+            font-size: 25px;
+    }
+
+    .logos {
+
+        font-size: 40px;
+        padding: 100px 250px 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .logo {
+        padding: 40px 600px;
+    }
+
+    h1 {
+        opacity: 0.3;
+        font-weight: lighter;
+        font-size: 30px;
+    }
+
+    .bold {
+        font-weight: 2000;
+    }
+
+    input {
+        height: 50px;
+        margin-left: 200px;
+    }
+
+    input::placeholder {
+        font-size: 20px;
+    }
+
+    button {
+        width: 200px;
+        display: inline;
+        position: absolute;
+        right: 340px;
+        top: 195px;
+        height: 50px;
+    }
+    .logos {
+
+        font-size: 40px;
+        padding: 100px 550px 20px;
+    }
+
+}
